@@ -1,10 +1,15 @@
 body {
+    margin: 0%;
     font-family: 'Poppins', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
     font-size: 50px;
+}
+.orange{
+    color: orange;
+
 }
 
 section {
@@ -15,5 +20,18 @@ section {
     padding-left: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 50%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.link-button{
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(red,orange);
+    padding: 10px 40px;
+    border-radius: 5%;
+    font-weight: 800;
+
 }
